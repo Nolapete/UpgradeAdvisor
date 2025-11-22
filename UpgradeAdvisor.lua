@@ -407,6 +407,7 @@ local function getEquippedItemForSlot(slotKey)
     end
     local invName = slotNameMap[slotKey]
     if invName then
+        --@diagnostic disable-next-line: Cannot assign 'string' to parameter
         local slotId = GetInventorySlotInfo(invName)
         if slotId then
             local id = GetInventoryItemID("player", slotId)
@@ -653,11 +654,11 @@ function UpgradeAdvisor:ScanUpgrades()
         end
     end
 
-    -- show results
+    -- show results in UI
     if tcount(upgrades) == 0 then
         DEFAULT_CHAT_FRAME:AddMessage("|cffffff00UpgradeAdvisor:|r No upgrades found.")
         UpgradeAdvisor.frame:Hide()
-        return upgrades
+        return upgradest
     end
 
     -- populate UI lines & also print to chat

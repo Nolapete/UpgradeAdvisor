@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sumneko/vscode-lua/master/setting/schema.json",
+  "Lua.diagnostics.globals": [
+        "pfQuest",
+        "SlashCmdList",
+        "DEFAULT_CHAT_FRAME",
+        "AtlasLoot_Data",
+        "AtlasLoot",
+        "upgradest",
+        "IsAddOnLoaded",
+        "ChatEdit_InsertLink",
+        "GetItemInfo",
+        "GetItemInfoInstant",
+        "GetInventorySlotInfo"
+      ]
+}
