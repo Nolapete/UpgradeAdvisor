@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: UpgradeAdvisor
+## Notes: Suggests gear upgrades using pfQuest and AtlasLoot data
+## Author: Ciamdell
+## Version: 0.1
+## SavedVariables: UpgradeAdvisorDB
+## Dependencies: pfQuest AtlasLoot
+UpgradeAdvisor.lua
